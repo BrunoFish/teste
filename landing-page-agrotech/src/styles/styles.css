@@ -85,4 +85,36 @@ section {
 
 .section-subtitle {
     font-size: 2.1875rem;
-} 
+}
+
+#form {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+#name, #email {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px var(--color-neutral-1);
+    border: none;
+    background-color: var(--color-primary-3);
+    margin-bottom: 5px;
+    width: 300px;
+}
+
+#message {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px var(--color-neutral-1);
+    resize: none;
+    background-color: var(--color-primary-3);
+    margin-bottom: 5px;
+    width: 800px;
+    height: 200px;
+}
+
+#enviar {
+    margin-left: 50%;
+    width: 100px;
+}
